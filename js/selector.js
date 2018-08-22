@@ -1,0 +1,1 @@
+BananaSplash.Logger.log("BananaSplash.Selector","Campaign is restricted. (No more visits left)");

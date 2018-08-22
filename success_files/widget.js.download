@@ -1,0 +1,26 @@
+/**
+ * Short description for file
+ *
+ * @FileName		widget.js
+ * @author			Greg Ahern <support@ometrics.com>
+ * @Description		Copyright (c) 2014 Ometrics LLC, All Rights Reserved. This script is for: Manage survey, heat map, form metrics, funnel metrics, exit convertor, A/B testing etc. with cross domain in json format.
+ */
+if(typeof HOST_URL == "undefined")
+  HOST_URL="www.ometrics.com";
+
+var cssLoad = document.createElement('link');
+cssLoad.setAttribute("href","//"+HOST_URL+"/widget/style.css");
+cssLoad.setAttribute("type", "text/css");
+cssLoad.setAttribute("rel","stylesheet");
+document.getElementsByTagName('head')[0].appendChild(cssLoad);
+
+var Ometrics;
+var jQueryLoad = document.createElement('script');
+jQueryLoad.setAttribute("type","text/javascript"); 
+jQueryLoad.setAttribute("src", "//"+HOST_URL+"/widget/ometrics.js");
+document.getElementsByTagName('head')[0].appendChild(jQueryLoad);
+
+/*var jQueryLoad = document.createElement('script');
+jQueryLoad.setAttribute("type","text/javascript");
+jQueryLoad.setAttribute("src", "//"+HOST_URL+"/widget/widget_debug.js");
+document.getElementsByTagName('head')[0].appendChild(jQueryLoad);*/

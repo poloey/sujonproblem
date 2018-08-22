@@ -1,0 +1,16 @@
+.mfp-popup-block{background:#fff none repeat scroll 0 0;border-radius:10px;margin:26px auto;max-width:960px;position:relative}.mfp-popup-block button.mfp-close{background:#000 none repeat scroll 0 0;border:8px solid #fff;border-radius:50%;color:#fff;font-size:42px;font-weight:700;height:60px;right:-9px;top:-16px;width:60px;z-index:9999;opacity:9!important}.popup-header{background:transparent linear-gradient(#ffa842,#ff8f0a) repeat scroll 0 0;color:#fff;font-size:28px;padding:10px 0;text-align:center;text-transform:uppercase;border-radius:7px 0 0}.popup-top .popup-content{padding:25px}.popup-top .popup-content p.blue-txt{color:#253161;font-size:26px;line-height:35px;margin-bottom:7px;text-align:left}.popup-top input{border:1px solid #ccc;border-radius:5px;padding:15px 10px;width:100%;margin:6px 0}.popup-top input.firstName{background:transparent url(../images/user-icon.png) no-repeat scroll 6px 13px;padding:12px 35px}.popup-top input.email{background:transparent url(../images/email-icon.png) no-repeat scroll 6px 15px;padding:12px 35px}.popup-top input.phnNo{background:transparent url(../images/phn-icon.png) no-repeat scroll 6px 12px;padding:12px 35px}.popup-top input[type=submit]{background:transparent linear-gradient(#4f5d97,#151e44) repeat scroll 0 0;border:1px solid #131d42;border-radius:5px;color:#fff;font-size:18px;white-space:nowrap}.popup-top .testi{padding:26px 0}.popup-top .testi p{color:#010101;font-size:17px;line-height:28px}.popup-top .testi p span{color:#ff8d06}.popup-top .img-profile{border:1px solid #000;border-radius:50%;height:120px;overflow:hidden;width:120px;margin-top:13px}.privacy-policy-content{text-align:left;color:#000;font-size:16px}@media screen and (max-width:767px){p.copyright{font-size:12px!important;line-height:22px;margin:0}p.copyright span{display:block;font-size:12px!important}}
+div#banner img {
+    width:  1145px;
+    height: 330px;
+}
+
+div#banner {
+    position: absolute;
+    right: -87px;
+    top: -19px;
+}
+
+
+.col_12.m_top_box h2 {
+    margin-bottom: 110px;
+}
